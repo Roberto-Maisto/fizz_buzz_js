@@ -1,0 +1,12 @@
+{
+  "name": "fizz_buzz_js",
+  "packageManager": "yarn@3.1.1",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  },
+  "scripts": {
+    "test": "jest --passWithNoTests --rootDir=spec"
+  }
+}
+
+
