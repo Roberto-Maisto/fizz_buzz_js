@@ -18,6 +18,20 @@ describe("FizzBuzz", () => {
   // ASSERT - we make sure that the result is what we expect it to be
   expect(result).toEqual('fizz')
 });
+
+it("is expected to return 'buzz' if the number is divisable by 5", () => {
+  // ACT - we use the sotware
+let result = subject.check(5)
+// ASSERT - we make sure that the result is what we expect it to be
+expect(result).toEqual('buzz')
+});
+
+it("is expected to return 'fizz-buzz' if the number is divisable by 15", () => {
+  // ACT - we use the sotware
+let result = subject.check(15)
+// ASSERT - we make sure that the result is what we expect it to be
+expect(result).toEqual('fizz-buzz')
+});
 });
 
 
